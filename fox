@@ -1,0 +1,35 @@
+{
+  "manifestVersion": "3.2",
+  "proxies": [
+    {
+      "address": "0xc290698f5E5CdbF881d804f68ceb5b76Ada383Be",
+      "txHash": "0x2d3ef76f601bbcb5579779018f83b1ded49e5f9b3301ceb1c05cd88caa5d963c",
+      "kind": "uups"
+    },
+    {
+      "address": "0xD78b1732aBc4A25C17824Ea9510D7a66a4a09A75",
+      "txHash": "0x2d1b864348e714612d7ab1ced7db62eb654b47100648fde2070a7678d0462174",
+      "kind": "uups"
+    }
+  ],
+  "impls": {
+    "6a8b4092ac5aee7203276e1a0f33d32a148e2d601e28ef2e5da6f99ad8fd53ad": {
+      "address": "0x98c98570342a6E26A0974E6d6E81761D83939875",
+      "txHash": "0x68d8433d3696908874a3f1021887b0b6c6d51dba85e53f1d34e99b411c410b7c",
+      "layout": {
+        "storage": [
+          {
+            "contract": "Initializable",
+            "label": "_initialized",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:39"
+          },
+          {
+            "contract": "Initializable",
+            "label": "_initializing",
+            "type": "t_bool",
+            "src": "../@openzeppelin/contracts-upgradeable/proxy/utils/Initializable.sol:44"
+          },
+          {
+            "contract": "ContextUpgradeable",
+            "label": "__gap",
